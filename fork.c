@@ -23,7 +23,7 @@ printf("(%u) Nooooooooo!\n", my_pid);
 }
 else
 {
-							            printf("(%u) %u, I am your father\n", my_pid, child_pid);
+printf("(%u) %u, I am your father\n", my_pid, child_pid);
 								        }
 					    return (0);
 }
