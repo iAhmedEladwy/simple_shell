@@ -13,7 +13,7 @@ pid_t child_pid;
 child_pid = fork();
 if (child_pid == -1)
 perror("Error:");
-						            return (1);
+return (1);
 							        }
 			    my_pid = getpid();
 			        printf("My pid is %u\n", my_pid);
